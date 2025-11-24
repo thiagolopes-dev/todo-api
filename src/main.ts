@@ -24,7 +24,7 @@ async function bootstrap() {
     }),
   );
   app.enableCors({
-    origin: ['http://localhost:4200', 'https://your-frontend-domain.com'], // Allowed origins
+    origin: ['http://localhost:4200', 'https://app.todoapp.com.br'], // Allowed origins
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Allowed HTTP methods
     credentials: true, // Allow cookies or authentication tokens
     allowedHeaders: 'Content-Type, Accept, Authorization', // Allowed request headers
